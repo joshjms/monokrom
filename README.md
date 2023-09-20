@@ -23,13 +23,15 @@ Follow these steps to set up and run the blog infrastructure:
 
 2. **Create an `.env` file in the root directory of the project to configure your environment variables.**
 
-3. **Build and start the Docker containers using `docker-compose`**
+3. **Create files `backup/` and `cache/` in the root directory**
+
+4. **Build and start the Docker containers using `docker-compose`**
 
     ```bash
     docker-compose up -d
     ```
 
-4. **Run the Go application**
+5. **Run the Go application**
 
     ```bash
     go run .
