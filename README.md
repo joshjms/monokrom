@@ -21,7 +21,7 @@ Follow these steps to set up and run the blog infrastructure:
    cd monokrom
    ```
 
-2. **Create a copy of `.env.example`**
+2. **Create an `.env` file in the root directory of the project to configure your environment variables.**
 
 3. **Build and start the Docker containers using `docker-compose`**
 
